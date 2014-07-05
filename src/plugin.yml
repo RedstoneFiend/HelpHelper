@@ -1,0 +1,21 @@
+name: HelpHelper
+author: Chrisbotcom
+website: http://chrisbotcom.github.io/HelpHelper/
+main: io.github.chrisbotcom.helphelper.HelpHelper
+depend: [PacketAPI]
+description: A help control system.
+version: 1.0
+
+commands:
+    helphelper:
+        aliases: hh
+        description: HelpHelper plugin version.
+        permission: helphelper
+        permission-message: You don't have <permission>
+        usage: /<command>.
+
+permissions:
+    helphelper:
+        description: Gives access to all HelpHelper commands.
+        default: op
+        

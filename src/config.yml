@@ -1,0 +1,7 @@
+tab-complete-enabled: true
+slash-tab-enabled: false
+slash-help-enabled: true
+slash-question-mark-enabled: true
+convert-question-mark-to-help: true
+no-help-message: No help available.
+no-question-mark-message: No help available.
